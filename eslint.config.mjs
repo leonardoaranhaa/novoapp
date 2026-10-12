@@ -13,6 +13,8 @@ export default tseslint.config(
       ".output/**",
       ".vercel/**",
       ".nitro/**",
+      "dist-mobile/**",
+      "android/**",
       "node_modules/**",
       "src/routeTree.gen.ts",
     ],
