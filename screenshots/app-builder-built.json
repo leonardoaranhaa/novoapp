@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Latente",
+      "hasCanvas": true,
+      "bodyTextLen": 199,
+      "bodyTextHash": "42eb6d4ce425d56e67a02951b69b9ab0795decf205b35c713629a5c2b8eec502",
+      "bodyTextPrefix": "CÂMARA ESCURA SONORA Latente 001 0:00.0 Arraste devagar para o â",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Latente",
+      "hasCanvas": true,
+      "bodyTextLen": 199,
+      "bodyTextHash": "42eb6d4ce425d56e67a02951b69b9ab0795decf205b35c713629a5c2b8eec502",
+      "bodyTextPrefix": "CÂMARA ESCURA SONORA Latente 001 0:00.0 Arraste devagar para o â",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
