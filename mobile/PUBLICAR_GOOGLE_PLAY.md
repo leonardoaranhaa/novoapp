@@ -4,6 +4,17 @@ O app Android é o mesmo `LatenteApp` da versão web, empacotado com Capacitor 8
 num bundle estático (`mobile/` → `dist-mobile/` → `android/`). Funciona offline:
 fontes locais, nenhum servidor, dados só no aparelho (`localStorage` do WebView).
 
+## APK de teste (sem instalar nada)
+
+A cada push que mexe no app, o GitHub Actions (`.github/workflows/android-apk.yml`)
+gera um APK de debug e o publica na pré-release `apk-teste`:
+
+https://github.com/leonardoaranhaa/novoapp/releases/download/apk-teste/latente-teste.apk
+
+No Android, abra o link, baixe e toque no arquivo. Na primeira vez, o sistema pede
+para permitir "instalar apps desconhecidos" no navegador. Se uma versão anterior
+estiver instalada, a nova instala por cima e mantém as películas salvas.
+
 ## Pré-requisitos
 
 - Node 22+, JDK 21, Android SDK com `platforms;android-36` e `build-tools;36.0.0`
