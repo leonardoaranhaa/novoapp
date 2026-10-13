@@ -1,0 +1,8 @@
+/* The native bundle ships fonts offline; @fontsource registers Fraunces under its variable name. */
+:root {
+  --font-display: "Fraunces Variable", "Fraunces", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+}
+
+#root {
+  height: 100%;
+}
